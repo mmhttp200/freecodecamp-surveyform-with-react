@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.container{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 100vw;
+  grid-template-rows: minmax(100vh,auto);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container form p,
+.container div p
+{
+  padding: 10px;
+}
+
+.container form p input,
+.container form p select,
+.container form p textarea{
+  border: none;
+  font-size: 30px;
+}
+
+.container form p fieldset{
+  padding: 10px;
+}
+
+.container form p button{
+  cursor: pointer;
+  padding: 10px;
+}
+
+.container ul li{
+  list-style:circle;
+}
